@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on Vay&#39;s Blog</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on Vay&#39;s Blog</description>
+    <generator>Hugo -- 0.138.0</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Thu, 14 Nov 2024 15:23:40 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>First Post</title>
+      <link>http://localhost:1313/posts/first-post/</link>
+      <pubDate>Thu, 14 Nov 2024 15:23:40 +0800</pubDate>
+      <guid>http://localhost:1313/posts/first-post/</guid>
+      <description>&lt;h1 id=&#34;基本markdown文本测试&#34;&gt;基本Markdown文本测试&lt;/h1&gt;
+&lt;h1 id=&#34;一级标题-head-1&#34;&gt;一级标题 Head 1&lt;/h1&gt;
+&lt;h2 id=&#34;二级标题-head-2&#34;&gt;二级标题 Head 2&lt;/h2&gt;
+&lt;h3 id=&#34;三级标题-head-3&#34;&gt;三级标题 Head 3&lt;/h3&gt;
+&lt;h4 id=&#34;四级标题-head-4&#34;&gt;四级标题 Head 4&lt;/h4&gt;
+&lt;h5 id=&#34;五级标题-head-5&#34;&gt;五级标题 Head 5&lt;/h5&gt;
+&lt;h6 id=&#34;六级标题-head-6&#34;&gt;六级标题 Head 6&lt;/h6&gt;
+&lt;blockquote&gt;
+&lt;p&gt;这是一段引用文本：&lt;/p&gt;
+&lt;p&gt;白日依山尽，黄河入海流。 欲穷千里目，更上一层楼。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;这是一段加粗的文本&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;这是一段斜体的文本&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;*&lt;strong&gt;这是一段加粗且斜体的文本*&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;这是一个超链接：&lt;a href=&#34;https://wataaaame.github.io&#34;&gt;My Java Blog&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;这是无序列表：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;项目1&lt;/li&gt;
+&lt;li&gt;项目2&lt;/li&gt;
+&lt;li&gt;项目3&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;这是有序列表：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;项目1&lt;/li&gt;
+&lt;li&gt;项目2&lt;/li&gt;
+&lt;li&gt;项目3&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;这是待办列表：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Python&lt;/li&gt;
+&lt;li&gt;Golang&lt;/li&gt;
+&lt;li&gt;Shell&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;这是分割线&lt;code&gt;---&lt;/code&gt;的效果：&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;这是行间代码块：&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Go&lt;/strong&gt;&lt;/th&gt;
+          &lt;th&gt;&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;code&gt;1 2 3 4 5 6 7&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;code&gt;package main import &amp;quot;fmt&amp;quot; func main() {    fmt.Println(&amp;quot;Hello, World!&amp;quot;) } &lt;/code&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;这是行内代码： &lt;code&gt;fmt.Println&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;这是一个表格：&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;左对齐表头&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;居中对齐表头&lt;/th&gt;
+          &lt;th style=&#34;text-align: right&#34;&gt;右对齐表头&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;AAA&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;CCC&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;EEE&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;BBB&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;DDD&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;FFF&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</description>
+    </item>
+  </channel>
+</rss>
