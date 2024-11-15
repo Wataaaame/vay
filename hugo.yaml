@@ -1,7 +1,50 @@
-baseURL: https://example.org/
-languageCode: zh-CN
+baseURL: "https://wataaaame.github.io/"
 title: Vay's Blog
-theme: [PaperMod]
+languageCode: zh
+theme: PaperMod
+
+params:
+  author: Vay
+  # DateFormat: https://gohugo.io/functions/time/format/
+
+  # 目录
+  showtoc: true
+
+  # 黑白模式 (light, dark, auto)
+  defaultTheme: auto
+
+  # 主页个人资料
+  homeInfoParams:
+    Title: 在下初见~ 👋
+    Content: 愿与君共话尘烟韶华
+  # 社交图标
+  socialIcons: # optional
+    - name: "email"
+      url: "aaron.twei@outlook.com"
+
+  # 展示阅读时间
+  ShowReadingTime: true
+
+  # 字数统计
+  ShowWordCount: true
+
+  # 面包屑导航
+  ShowBreadCrumbs: true
+
+  # 建议更改
+  editPost:
+    URL: "https://github.com/Wataaaame/wataaaame.github.io/blob/main/content"
+    Text: "Suggest Changes" # edit text
+    appendFilePath: true # to append file path to Edit link
+
+  # 下一篇文章推荐
+  ShowPostNavLinks: true
+
+  # 代码复制按钮
+  ShowCodeCopyButtons: true
+
+  # 隐藏脚注
+  # hideFooter: true
 
 menu:
   main:
@@ -17,3 +60,10 @@ menu:
     - name: Search
       url: search/
       weight: 40
+
+# Search
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # necessary for search
